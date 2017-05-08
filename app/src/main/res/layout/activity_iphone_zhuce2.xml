@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_iphone_zhuce2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/zhuce_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/btn_back_detail_normal"
+        />
+
+    <TextView
+        android:id="@+id/zhuce_text_zhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机号注册"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        />
+    <View
+        android:id="@+id/zhuce_viewno"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BABABA"
+        android:layout_below="@id/zhuce_back"
+        />
+    <TextView
+        android:id="@+id/zhuce_text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignBottom="@id/zhuce_text_zhuce"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/zhuce_viewno"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        >
+
+        <EditText
+            android:id="@+id/zhuce_edit_phone"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入手机号"
+            android:gravity="center"
+            />
+
+        <RadioButton
+            android:id="@+id/zhuce_rb_yhxy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同意《今日头条用户协议》"
+            />
+
+        <Button
+            android:id="@+id/zhuce_btn_next"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="下一步"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+                android:background="@color/red"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/big_defaulthead_head"
+        />
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今日头条"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:drawableRight="@mipmap/refreshing_video_textpage_normal"/>
+    <ImageView
+        android:id="@+id/image_seek"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/search_discover_normal_night"/>
+</RelativeLayout>

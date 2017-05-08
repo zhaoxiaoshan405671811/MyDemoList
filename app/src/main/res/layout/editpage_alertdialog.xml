@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_weight="1"
+              android:id="@+id/textCamera"
+              android:text="拍照"
+              android:textSize="20sp"
+              android:padding="5dp"/>
+
+    <View android:layout_height="0.5dp"
+          android:layout_width="match_parent"
+          android:background="@color/black"/>
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_weight="1"
+              android:id="@+id/textchoosePic"
+              android:text="选择本地图片"
+              android:textSize="20sp"
+              android:padding="5dp"/>
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_weight="1"
+              android:id="@+id/textcancel"
+              android:text="取消"
+              android:textSize="20sp"
+              android:padding="5dp"/>
+
+</LinearLayout>
