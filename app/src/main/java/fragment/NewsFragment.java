@@ -48,7 +48,7 @@ public class NewsFragment extends Fragment {
     public static NewsFragment getInstance(String title){
      NewsFragment newsFragment = new NewsFragment();
         //实例化bundle，用bundle传值
-        Bundle bundle= new Bundle();
+        Bundle bundle = new Bundle();
         //绑定数据
         bundle.putString("title",title);
         //设置内容，参数是bundle，

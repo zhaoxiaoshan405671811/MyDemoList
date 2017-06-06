@@ -17,9 +17,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
     <android.support.design.widget.TabLayout
         android:id="@+id/tablayout"
-             android:layout_width="325dp"
+             android:layout_width="340dp"
         android:layout_height="wrap_content"
         app:tabIndicatorColor="@color/white"
         app:tabSelectedTextColor="@color/red"
@@ -27,8 +28,8 @@
         ></android.support.design.widget.TabLayout>
         <ImageView
             android:id="@+id/image_gridview"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:layout_gravity="center_vertical"
             android:src="@mipmap/addred_channel_titlbar"/>
     </LinearLayout>
